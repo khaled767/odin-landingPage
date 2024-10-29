@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land page</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .content {
+            background-color: #1f2937;
+            height: 350px;
+            padding: 10px 60px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .header-logo a {
+            color: #f9faf8;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: capitalize;
+            margin-left: 63px;
+        }
+        .header ul li a {
+            color: #f9faf8;
+            font-size: 18px;
+            text-decoration: none;
+            margin-right: 50px;
+          }
+          .header ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+          }
+          .header-explain {
+            height: 330px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          }
+          .header-text, .header-image {
+            width: 40%;
+            color: #f9faf8;
+
+          }
+          .header-text h2 {
+            font-size: 44px;
+            font-weight: 800;
+          }
+          .header-text p, .register p, .register button ,.footer h2{
+            font-size: 18px;
+            font-weight: 300;
+            color: white;
+          }
+          .header-text button {
+            background-color: #3882f6;
+            color: #E5E7EB;
+            padding:10px 20px;
+            margin-top: 15px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: 500;
+            cursor: pointer;
+          }
+        
+          .image-box {
+            height: 230px;
+            width: 510px;
+          }
+          .image-box img {
+            width: 100%;
+            height: 100%;
+          }
+          .second-part {
+            background-color:white;
+            height: 350px;
+            margin: 0 20px;
+          }
+          .ran-info {
+            display: flex;
+            height: 120px;
+            justify-content: center;
+          }
+         .ran-info h2 {
+            margin-top: 20px;
+            color: #1f2937;
+            font-size: 36px;
+            font-weight: 900;
+         } 
+         .random-image {
+            height: 200px;
+          }
+         .unorder {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0 40px;
+          }
+          .box {
+              height: 200px;
+              width: 150px;
+              list-style: none;
+              display: flex;
+          }
+          .box li {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-items: center;
+          }
+            .box li img {
+              background-color:white;
+              height: 65%;
+              width: 100%;
+              border-radius: 10px;
+              border: 3px solid #3882f6
+          }
+          .box li p {
+            color:#1f2937af;
+          }
+          .third-part {
+            background-color: #E5E7EB;
+            height: 350px;
+            display: flex;
+          }
+          .third-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .third-container h2 {
+            width: 60%;
+            color: #1f2937af;
+            font-size: 36px;
+            font-style: italic;
+            font-weight: 300;
+            display: flex;
+          }
+          .third-container h4 {
+            font-weight: 700;
+            margin-left: 45%;
+            font-size: 18px;
+          }
+
+          .forth-part {
+            background-color: white;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .register {
+            width: 80%;
+            height: 175px;
+            background-color: #3882f6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border-radius: 10px;
+            color: white;
+          }
+          .register h2, .register p, .register button {
+            margin:0 70px;
+          }
+          .node {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+          }
+          .node button {
+            width: 150px;
+            height: 40px;
+            background-color:#3882f6;
+            color: rgb(241, 241, 241);
+            border-radius: 10px;
+            border: 3px solid white;
+            cursor:pointer;
+          }
+          .footer {
+            background-color: #1f2937;
+            height: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="header-logo"><a href="#">header logo</a></div>
+            <ul>
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </div>
+        <div class="header-explain">
+            <div class="header-text">
+                <h2>This website is awesome</h2>
+                <p>This website has some subtext that goes under the main title. it's a smaller font and the color is lower contrast. </p>
+                    <button>Sign up</button>
+            </div>
+            <div class="header-image">
+                <div class="image-box">
+                    <img src="static/preview.jpg" alt="this is a placeholder for an image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="second-part">
+        <div class="ran-info">
+            <h2>Some random information. </h2>
+        </div>
+        <div class="random-image">
+            <ul class="unorder">
+              <div class="box">
+                <li>
+                  <img src="static/preview01 (1).jpg" alt="picture1"><p> this is some subtext under an illustration or image</p>
+                </li>
+              </div>
+              <div class="box">
+                <li>
+                  <img src="static/preview01 (2).jpg" alt="picture2"><p> this is some subtext under an illustration or image</p>
+                </li>
+              </div>
+              <div class="box">
+                <li>
+                  <img src="static/preview01 (3).jpg" alt="picture3"><p> this is some subtext under an illustration or image</p>
+                </li>
+              </div>
+              <div class="box">
+                <li>
+                  <img src="static/preview01 (4).jpg" alt="picture4"><p> this is some subtext under an illustration or image</p>
+                </li>
+              </div>
+            </ul>
+        </div>
+    </div>
+    <div class="third-part">
+      <div class="third-container">
+        <h2>This is an inspiring quote, or a testimonial form a
+          customer. Maybe it's just filling up space, or maybe
+          people will actually read it. Who knows ? all i know 
+          is that it looks nice.
+        </h2>
+        <h4>- OMER YILDIZ</h4>
+      </div>
+    </div>
+    <div class="forth-part">
+      <div class="register">
+         <h2>Call to action! it's time!</h2>
+              <div class="node">
+                <p>Sign up for our product by clicking that button right over there</p>
+                <button class="submit">Sign Up</button>
+              </div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <h2>Copyright  &copy  The Daimond clinic Odin Project 2021 </h2>
+      </div>
+</body>
+</html>
